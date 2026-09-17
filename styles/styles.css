@@ -1,6 +1,6 @@
 nav {
     background-color: lightblue;
-    margin: 30px orange;
+    margin: 30px;
     padding: 10px;
 }
 
@@ -57,3 +57,5 @@ footer {
     border-top: 1px solid black;
     text-align: center;
 }
+
+/*This is a css comment*/
