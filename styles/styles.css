@@ -1,5 +1,5 @@
 nav {
-    background-color: lightblue;
+    background-color: darkblue;
     margin: 30px;
     padding: 10px;
 }
@@ -21,7 +21,7 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 10px;
+    border: 10px solid orange;
     padding: 10px;
     box-shadow: 0 0 10px;
 }
