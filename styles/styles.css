@@ -1,6 +1,6 @@
 :root {
-    ---main-color: rgb(0, 0, 139);
-    ---secondary-color: rgb(255, 169, 0);
+    --main-color: rgb(0, 0, 139);
+    --secondary-color: rgb(255, 169, 0);
 }
 
 nav {
@@ -24,13 +24,7 @@ main {
     max-width: fit-content;
 }
 
-main img {
-    width: 150px;
-    height: auto;
-    border: 10px solid var(---secondary-color);
-    padding: 10px;
-    box-shadow: 0 0 10px;
-}
+
 
 img {
     width: 150px;
@@ -38,6 +32,14 @@ img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 10px solid var(---secondary-color);
+    padding: 10px;
+    box-shadow: 0 0 10px;
 }
 
 p {
