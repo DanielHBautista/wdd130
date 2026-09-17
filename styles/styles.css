@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: darkblue;
     margin: 30px;
@@ -5,7 +11,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: darkorange;
     display: block;
     padding: 20px;
 }
@@ -16,12 +22,14 @@ h1 {
 
 main {
     max-width: fit-content;
+    margin: 10px;
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
-    border: 10px solid orange;
+    border: 10px solid darkorange;
     padding: 10px;
     box-shadow: 0 0 10px;
 }
@@ -29,28 +37,33 @@ main img {
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    margin: 10px;
+    border: 1px solid darkorange;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 p {
     padding: 0px;
+    margin: 10px;
 }
 
 aside {
+    position: relative;
     width: 100%;
     height: auto;
-    margin: 20px 0px;
-    border: 1px solid black;
-    padding: 10px;
-    background-color: lightgray;
-    color: black;
 }
 
 aside img {
+
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 75px;
+    left: 100px
 }
 
 footer {
@@ -59,4 +72,12 @@ footer {
     text-align: center;
 }
 
-/*This is a css comment*/
+/*Css Class Selectors*/
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid orange;
+    background: lightblue;
+    color: black;
+}
