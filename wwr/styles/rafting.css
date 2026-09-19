@@ -31,6 +31,10 @@ header {
     border: 10px solid var(--secondary-accent-color);
 }
 
+header img {
+    border: 10px solid var(--secondary-color);
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
