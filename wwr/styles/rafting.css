@@ -209,6 +209,7 @@ footer {
 footer p {
     margin: 0;
     align-self: flex-end;
+    color: var(--secondary-accent-color);
 }
 
 footer nav {
