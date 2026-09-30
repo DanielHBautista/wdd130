@@ -8,7 +8,7 @@
     --primary-color: navy;
     --secondary-color: orange;
     --primary-accent-color: black;
-    --secondary-accent-color: white;
+    --secondary-accent-color: #d4af37;
     --heading-font: "Georgia", "Garamond", serif;
     --body-font: Helvetica, sans-serif;
 }
@@ -44,7 +44,7 @@ header {
 header img {
     border: 5px solid var(--primary-color);
     margin: 5px;
-    box-shadow: 0 0 10 10;
+    box-shadow: 0 0 10px 10px;
 
 }
 
@@ -201,7 +201,7 @@ section {
 footer {
     display: flex;
     align-items: center;
-    border: 1px solid var(--primary-accent-color);
+    border: 5px solid var(--secondary-accent-color);
     background-color: var(--primary-color);
 
 }
