@@ -1,0 +1,58 @@
+table {
+    border-collapse: collapse;
+    border: 5px solid orange;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px 10px;
+}
+
+caption {
+    font-size: x-large;
+    padding: 40px;
+    border: 10px solid gold;
+    margin: 10px;
+}
+
+th,
+td {
+    border: 5px solid orange;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.first {
+    background-color: navy;
+    color: white;
+}
+
+.second {
+    background-color: blue;
+    color: white;
+}
+
+.third {
+    background-color: dodgerblue;
+}
+
+.fourth {
+    background-color: lightblue;
+}
+
+.fifth {
+    background-color: aliceblue;
+}
+
+.southern {
+    background-color: #000050;
+}
+
+.western {
+    background-color: #;
+}

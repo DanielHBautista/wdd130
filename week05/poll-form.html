@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD130 | HTLM Form - User Poll</title>
+    <meta name="description"
+      content="Describe your homepage using keywords like your name, the course, the purpose of the page.">
+    <meta name="author" content="Daniel H. Bautista">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="favoritebrowser">What is your favorite browser?</label>
+                <div class="form-item column1">
+                    <select name="favoritebrowser" id="favoritebrowser">
+                        <option value="firefox">Mozilla Firefox</option>
+                        <option value="Chrome">Chrome</option>
+                        <option value="Edge">Edge</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="checkbox">Do you have a household pet?</label>
+                    <input type="checkbox" id="householdpet" name="householdpet">
+                </div>
+                <div class="form-item">
+                    <label for="livedplaces">List the places you have lived.</label>
+                    <textarea id="livedplaces" name="livedplaces"
+                      placeholder="Paris, France, Germany, England" rows="4"></textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Daniel H. Bautista 2026</p>
+    </footer>
+</body>
+
+</html>
