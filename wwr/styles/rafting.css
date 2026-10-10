@@ -159,7 +159,6 @@ form {
     flex-direction: column;
     justify-content: space-between;
     gap: 15px;
-    height: 450px;
 }
 
 .name-name {
@@ -310,4 +309,83 @@ footer p {
 
 footer nav {
     float: right;
+}
+
+nav.actioncall {
+    display: flex;
+    justify-content: center;
+}
+
+nav.actioncall a {
+    border: 5px solid var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+nav.actioncall a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    border: 5px solid var(--secondary-color);
+}
+
+div.newsletter-info {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid var(--secondary-accent-color);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+
+div.context-offerings figure {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section.availabletrips {
+    display: grid;
+    grid-template-rows: 30;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.pair {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border: 5px solid var(--secondary-accent-color);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+div.pair figure {
+    border: 5px solid var(--secondary-accent-color);
+    color: var(--primary-accent-color);
+}
+
+div.pair figure img {
+    border: 5px solid var(--secondary-color);
+    margin-top: 10px;
+}
+
+table {
+    border: 5px solid var(--primary-color);
+    padding: 5px;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table th {
+    background-color: var(--primary-accent-color);
+    color: var(--secondary-accent-color);
+    border: 5px solid var(--secondary-accent-color);
+}
+
+table td {
+    background-color: var(--primary-accent-color);
+    color: var(--secondary-accent-color);
+    border: 5px solid var(--secondary-accent-color);
 }
